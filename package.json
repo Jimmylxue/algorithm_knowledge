@@ -1,0 +1,31 @@
+{
+	"name": "daily-store",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"docs:start": "pnpm -C ./packages/snowdocs start",
+		"docs:build": "pnpm -C ./packages/snowdocs docs:build",
+		"web:dev": "pnpm -C ./packages/snowweb dev",
+		"tiny:build": "pnpm -C ./packages/snowtiny build-d",
+		"tiny:dev": "pnpm -C ./packages/snowtiny dev"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"typescript": "^4.8.4"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.20.2",
+		"@babel/preset-env": "^7.20.2",
+		"@babel/preset-typescript": "^7.18.6",
+		"@types/jest": "^29.2.3",
+		"@types/node": "^18.11.9",
+		"jest": "^29.3.1",
+		"jest-environment-jsdom": "^29.3.1",
+		"ts-jest": "^29.0.3"
+	}
+}
